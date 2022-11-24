@@ -11,26 +11,32 @@ const Article2 = () => {
                                  className="author-image" alt="Placeholder image"/>
                             </div>
                             <div className="media-content has-text-centered">
-                                <p className="title article-title">Sapien eget mi proin sed 🔱</p>
+                                <p className="title article-title">¿Qué es el ISRL? 🔱</p>
                                 <p className="subtitle is-6 article-subtitle">
-                                    <a href="#">@daria</a> on February 17, 202X
+                                    <a href="#">Niorka Martinez</a> Noviembre 24, 20222
                                 </p>
                             </div>
                         </div>
                         <div className="content article-body">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas. Sapien eget mi proin sed. Sit amet mattis vulputate enim.
+                            El Impuesto Sobre la Renta (ISLR) es un arancel tributario que se declara y paga de manera obligatoria en los primeros tres meses del año (enero, febrero y marzo) al estado. Es calculado de acuerdo a los ingresos percibidos por el contribuyente durante el año fiscal anterior.
                             </p>
                             <p>
-                                Commodo ullamcorper a lacus vestibulum sed arcu. Fermentum leo vel orci porta non. Proin fermentum leo vel orci porta non pulvinar. Imperdiet proin fermentum leo vel. Tortor posuere ac ut consequat semper viverra. Vestibulum lectus mauris ultrices eros.
+                            Es importante destacar que aquellos ciudadanos venezolanos sujetos a la norma, que incumplan ya sea con la declaración o el pago oportuno del ISLR serán objeto de sanciones por parte de la Administración Aduanera y Tributaria. Estas multas oscilan de acuerdo a su gravedad entre las 50 y las 150 UT.
                             </p>
-                            <h3 className="has-text-centered">Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Cras tincidunt lobortis feugiat vivamus.</h3>
+                            <h3 className="has-text-centered">¿Quiénes están obligados al pago del ISLR?</h3>
                             <p>
-                                In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam.
-                                Arcu non sodales neque sodales ut etiam sit amet.
+                            El artículo 79 de la Ley de Impuesto sobre la Renta detalla que deben declarar el Impuesto Sobre la Renta las personas naturales, asalariados con ingreso anual superior a 1.000 UT y no asalariados con ingresos brutos mayores a 1.500 UT. No obstante, conforme a lo previsto en el decreto de emergencia económica actual la base para este cálculo será de 6.000 U.T. Igualmente todas las personas jurídicas deberán declarar independientemente de los ingresos generados.
                             </p>
+                            <h3 className="has-text-centered">¿Cómo se realiza el pago del ISLR?</h3>
+                            <figure class="image is-16by9">
+  <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/FBaZvWGnD-g" frameborder="0" allowfullscreen></iframe>
+</figure>
+
+<p>Fuentes: <a href="https://www.sunaval.gob.ve/2022/02/10/seniat-invita-a-cancelar-impuesto-sobre-la-renta/#:~:text=El%20Impuesto%20Sobre%20la%20Renta,durante%20el%20a%C3%B1o%20fiscal%20anterior." target="_blank" rel="noopener noreferrer">SUNAVAL</a> | <a href="http://declaraciones.seniat.gob.ve/portal/page/portal/MANEJADOR_CONTENIDO_SENIAT/05MENU_HORIZONTAL/5.1ASISTENCIA_CONTRIBUYENTE/5.1.2ORIENTACION_GENERA/5.1.2.1TRAMITES_ELECTRONI/RegistroAutorizados.pdf" target="_blank" rel="noopener noreferrer">SENIAT</a>  </p>
                         </div>
                     </div>
+                    
                 </div>
               
     );
