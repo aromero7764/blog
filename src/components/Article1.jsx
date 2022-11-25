@@ -2,7 +2,7 @@ import React from 'react';
 
 const Article1 = () => {
     return (
-        <div className="card article">
+        <div id='post1' className="card article">
                         <div className="card-content">
                             <div className="media">
                                 <div className="media-content has-text-centered">

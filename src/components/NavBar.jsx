@@ -17,44 +17,35 @@ const NavBar = () => {
                 </div>
                 <div id="navbarMenu" className="navbar-menu">
                     <div className="navbar-end">
-                        <a className="navbar-item is-active">
-                                Inicio 
-                            </a>
-                        <a className="navbar-item">
-                                Post
-                            </a>
-                        <a className="navbar-item">
-                                Features
-                            </a>
-                        <a className="navbar-item">
-                                Team
-                            </a>
-                        <a className="navbar-item">
-                                Archives
-                            </a>
-                        <a className="navbar-item">
-                                Help
-                            </a>
-                        <div className="navbar-item has-dropdown is-hoverable">
+                    <div className="navbar-item has-dropdown is-hoverable">
                             <a className="navbar-link">
-                                    Account
+                                    Temas
                                 </a>
                             <div className="navbar-dropdown">
-                                <a className="navbar-item">
-                                        Dashboard
+                               <a href='#post1' className="navbar-item">
+                                ¿Qué son los impuestos?
+                                    </a> 
+                                 <a href='#post2' className="navbar-item">
+                                ¿Qué es el ISRL?
+                                    </a> 
+                                <a href='#article3' className="navbar-item">
+                                ¿Qué es el enriquecimiento neto?
                                     </a>
-                                <a className="navbar-item">
-                                        Profile
+                                    <a href='#article5' className="navbar-item">
+                                    Proceso de pago del ISLR
                                     </a>
-                                <a className="navbar-item">
-                                        Settings
+                                    <a href='#article6' className="navbar-item">
+                                    Impuesto al Valor Agregado
                                     </a>
-                                <hr className="navbar-divider"/>
-                                <div className="navbar-item">
-                                    Logout
-                                </div>
+                                
                             </div>
                         </div>
+                        <a href='/' className="navbar-item is-active">
+                                Inicio del Blog
+                            </a>
+                       
+                        
+                        
                     </div>
                 </div>
             </div>
